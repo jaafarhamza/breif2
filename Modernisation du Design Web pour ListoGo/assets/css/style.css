@@ -1,0 +1,581 @@
+html{
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(204, 21, 21);
+}
+
+
+                     /*BORDER*/
+
+.border{
+    padding: 3rem 10rem 1.5rem 10rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 5rem;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 5rem;
+    margin-right: 0.5rem;
+}
+.logo a{
+    display: flex;
+    align-items: center ;
+    text-decoration: none;
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.logo a:hover{
+    color: #1DAEFF;
+}
+.nav{
+    padding: 3rem 10rem 1.5rem 10rem;
+   
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.nav li a{
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 5rem;
+}
+.nav li a, a:hover{
+    text-decoration: none;
+    
+}
+.nav li a:hover{
+    color: #1DAEFF;
+}
+
+.nav ul button{
+    background-color: transparent;
+    border-radius: 1rem;
+    padding: 0.7rem 2.5rem 0.6rem 2.5rem;
+    border:0.2rem solid #1DAEFF;
+}
+.nav ul button:hover{
+    background-color: #1DAEFF;
+}
+.nav ul button:hover a{ 
+    color: #fff;
+}
+.nav ul button a{
+    font-weight: bold;
+    text-decoration: none;
+    color:#1DAEFF;
+}
+
+/*FOOTER*/
+
+#footer{
+    padding: 3rem 10rem 3rem;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1.5fr;
+    gap: 8rem;
+}
+
+.row1 .logo{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.row1 h2{
+    color: gray;
+    line-height: 2.5rem;
+    
+}
+
+.social-media ul{
+    margin-top: 3rem;
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    
+}
+
+.social-media ul li a{
+    font-size: 2rem;
+}
+    
+.copyright{
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+
+.copyright a{
+    text-decoration: none;
+}
+
+.TakeATour{
+    position: relative;
+    margin-top: 1.7rem;
+
+}
+
+.OurCompany{
+    position: relative;
+    margin-top: 1.7rem;
+
+}
+
+.Subscribe{
+    position: relative;
+    margin-top: 1.7rem;
+
+
+}
+.TakeATour-element{
+    margin-top: 2.5rem;
+}
+
+.TakeATour-element li {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.TakeATour-element li a{
+    
+    text-decoration: none;
+    color: black ;
+    font-size: 1.8em;
+}
+
+.TakeATour-element li a:hover{
+    color: #1DAEFF;
+}
+
+.OurCompany-element{
+    margin-top: 2.5rem;
+}
+
+.OurCompany-element li {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.OurCompany-element li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 1.8em;
+}
+
+.OurCompany-element li a:hover{
+    color: #1DAEFF;
+}
+.Subscribe h1{
+    margin-bottom: 2rem;
+}
+
+.Subscribe h2{
+    color: gray;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.box-email{
+    margin-top: 4rem;
+    
+
+
+
+
+}
+.button-email-footer{
+    border-style: solid;
+    border-color: gray;
+    padding: 1.3rem;
+    border-radius: 1rem ;
+    padding-top: 1.7rem;
+    background: white;
+    margin-top: 5rem;
+    
+    
+}
+
+.button-email-footer input{
+    border: none;
+    outline: none;
+    width: 20rem;
+    
+}
+.button-email-footer button{
+    cursor: pointer;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    height: 10%;
+    color: #1DAEFF;
+  
+}
+
+                     /*sction 1 home*/
+
+
+#section1{
+    padding: 2rem 5rem 1.5rem 5rem;
+}
+.section1 h1{
+    font-size: 5rem;
+    text-align: center;
+}
+.section1 h2{
+    display: inline-flex;
+    font-size: 2rem;
+    color: gray;
+    margin-top: 5rem;
+}
+
+.section1 a{
+    text-decoration: none;
+}
+.section1 h2:hover{
+    color: rgb(78, 77, 77);
+}
+
+.new-listing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-listing h3{
+    font-size: 3rem;
+}
+
+.new-listing a{
+    font-size: 2rem;
+    color: #1DAEFF;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+                           /*section2*/
+
+.section2{
+    padding: 0rem 5rem 1.5rem 5rem;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.content{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+}
+
+.offer{
+    border-style: solid ;
+    border-radius: 2rem;
+    overflow: hidden;
+    border-width: 0.3rem;
+
+}
+
+.offer a{
+    text-decoration: none;
+}
+
+.offer a img{
+    border-radius: 1.5rem;
+    margin-bottom: 1.2rem;
+    
+
+}
+
+.description{
+    margin: 0rem 2rem 0rem 2rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.content{
+    margin-top: 1.5rem;
+}
+.circle-text{
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    
+}
+
+.circle-text i{
+    font-size: 1rem;
+    
+}
+.circle-text p{
+    color: black;
+    font-weight: bold;
+}
+
+.Pricing{
+    color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.rooms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rooms p{
+    color: black;
+    font-size: 1.5rem;
+}
+.rooms p strong{
+    font-weight: bold;
+    margin-top: 1.5rem;
+
+}
+
+.address{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.email-agent{
+    background: transparent;
+    border-radius: 2rem;
+    background-color: #1DAEFF;
+    padding: 0.6em ;
+    color: black;
+    width: max-content;
+    position: relative;
+    left: 30rem;
+    bottom: 1rem;
+}
+
+
+.next-previous{
+    padding: 0rem 5rem 1.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.next-previous a{
+    text-decoration: none;
+}
+.previous :hover{
+    color: #1DAEFF;
+}
+
+
+.previous{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+    margin-left: 3rem;
+}
+
+.next :hover{
+    color: #1DAEFF;
+}
+
+
+.next{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(74, 74, 74);
+    margin-right: 3rem;
+}
+
+.pub{
+    padding: 1rem 5rem 1.5rem 5rem;
+    position: relative;
+
+}
+.border-pub1 {
+    
+    position: relative;
+    overflow: hidden;
+}
+
+
+.border-pub{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    border-style: none;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+.pub-content{
+    position: absolute;
+    top: 12rem;
+    left: 20rem;
+    height: 50%;
+    display: grid;
+    gap: 5rem;
+    
+}
+
+.pub-content h5{
+    font-size: 6rem;
+}
+
+.pub-content p{
+    font-size: 2.5rem;
+}
+
+.button-pub{
+    border-radius: 1.2rem;
+    background: transparent;
+    background-color: #1DAEFF;
+    border-color: #1DAEFF;
+    border-width: 0.3rem;
+    padding: 1.5rem 2rem;
+    width: 50%;
+    
+}
+.button-pub:hover{
+    border-color: #1DAEFF;
+    background-color: #DFF0F7;
+}
+
+.button-pub a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+}
+
+.button-pub a:hover{
+    color: #1DAEFF;
+
+}
+
+
+
+                   /*home*/
+
+.top-section{
+    padding: 2rem 5rem 1.5rem 5rem;
+    width: 100%;
+}
+
+.imageee{
+    float: right;
+    float: left;
+    width: 141rem;
+    height: 63.376;
+    position: relative;
+    width: 100%;
+    
+    
+}
+
+.banner-tittle{
+    position: absolute;
+    top: 22rem;
+    left: 15rem;
+    display: grid;
+    gap: 5rem;
+    
+}
+
+
+.banner-tittle h1{
+    font-size: 7rem;
+    font-weight:bold;
+}
+
+.banner-tittle p{
+    font-size: 2.5rem;
+    line-height: 4rem;
+    
+}
+
+.tableu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem 2rem 2rem 0rem;
+    margin-top: 3rem;
+    border-style: solid;
+    border: #fff;
+    background-color: #fff;
+    border-radius: 0rem 2rem 2rem 2rem;
+    margin-left: 1.5rem;
+    padding-left: 2.5rem;
+    box-shadow: #fff;
+}
+
+.table-tittle{
+    display: flex;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #fff;
+    border-radius: 2rem 2rem 0rem 0rem;
+    margin-left: 1.5rem;
+    margin-bottom: -3rem;
+    height: 4rem;
+    width: 10rem;
+    gap: 2rem;
+}
+
+
+.table-tittle p a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-left: 2.5rem;
+    gap: 5rem;
+    
+}
+
+/*section2*/
+
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+    
+    
+
+
